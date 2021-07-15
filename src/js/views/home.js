@@ -6,42 +6,42 @@ export const Home = () => (
 	<div>
 		<div>
 			<div>
-				<div className="jumbotron jumbotron-fluid">
-					<div className="container">
-						<h1 className="display-4">Juan Hernadez photography</h1>
-						{/* <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
-					</div>
+				{/* <div className="jumbotron jumbotron-fluid"> */}
+				<div className="container">
+					{/* <h1 className="display-4">Juan Hernadez photography</h1> */}
+					{/* <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
+					{/* </div> */}
 				</div>
 
-				{/* <div id="slider"> */}
-				{/* <figure className="slide_img"> */}
-				{/* <img
+				<div id="slider">
+					<figure className="slide_img">
+						<img
 							src="https://m.22slides.com/jhernandez/anrepark231217-14-6230.jpg?auto=format&w=1200&s=227975a1771859cca0c14d380e842df1"
 							alt="Juicy"
 							width={1500}
 							height={800}
-						/> */}
-				{/* <figcaption>Can be Juicy !</figcaption> */}
-				{/* </figure> */}
-				{/* <figure className="slide_img"> */}
-				{/* <img
+						/>
+						<figcaption>Can be Juicy !</figcaption>
+					</figure>
+					<figure className="slide_img">
+						<img
 							src="https://m.22slides.com/jhernandez/20200812-dscf1067-5043.jpg?auto=format&w=1000&s=84339576f0622c1dd4cc44f349cae0a3"
 							alt="Bridge"
 							width={1255}
 							height={800}
-						/> */}
-				{/* <figcaption>Iron piece between two part of land</figcaption> */}
-				{/* </figure> */}
-				{/* <figure className="slide_img"> */}
-				{/* <img
+						/>
+						<figcaption>Iron piece between two part of land</figcaption>
+					</figure>
+					<figure className="slide_img">
+						<img
 							src="https://m.22slides.com/jhernandez/20200917-dscf2468-1017.jpg?auto=format&w=1000&s=385b92109fa43d424e096a8c4f960587"
 							alt="Taking pics"
 							width={1255}
 							height={800}
-						/> */}
-				{/* <figcaption>Photography is magic</figcaption> */}
-				{/* </figure> */}
-				{/* </div> */}
+						/>
+						<figcaption>Photography is magic</figcaption>
+					</figure>
+				</div>
 			</div>
 		</div>
 		{/* <figure className="snip1336">
@@ -72,6 +72,7 @@ export const Home = () => (
 				</a>
 			</figcaption>
 		</figure> */}
+		{/* this is a porlaroid picture */}
 		<div className="wrapper">
 			<div className="item">
 				<div className="fuji">
@@ -113,7 +114,7 @@ export const Home = () => (
 					</a>
 				</div>
 			</div>
-			<iframe width="1200" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" />
+			<iframe width="1200" height="345" src="https://www.youtube.com/embed/rEyz5SZBJbg?autoplay=1&mute=1" />
 		</div>
 	</div>
 );

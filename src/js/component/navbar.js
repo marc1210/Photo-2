@@ -15,16 +15,16 @@ export const Navbar = () => {
 					<p className="txt-railway">- JUAN HERNADEZ PHOTOGRAPHY -</p>
 					<br />
 					<a href="https://www.facebook.com/bootsnipp">
-						<i id="social-fb" className="fa fa-facebook-square fa-3x social" />
+						<i id="social-fb" className="fab fa-facebook-square" />
 					</a>
 					<a href="https://twitter.com/bootsnipp">
-						<i id="social-tw" className="fa fa-twitter-square fa-3x social" />
+						<i id="social-tw" className="fab fa-twitter-square" />
 					</a>
-					<a href="https://plus.google.com/+Bootsnipp-page">
-						<i id="social-gp" className="fa fa-google-plus-square fa-3x social" />
+					<a href="https://www.instagram.com/royznov/">
+						<i id="social-gp" className="fab fa-instagram" />
 					</a>
 					<a href="mailto:bootsnipp@gmail.com">
-						<i id="social-em" className="fa fa-envelope-square fa-3x social" />
+						<i id="social-em" className="far fa-envelope" />
 					</a>
 				</div>
 
