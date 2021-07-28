@@ -12,8 +12,8 @@ export const Navbar = () => {
 			/>
 			<div>
 				<div className="text-center center-block">
-					<p className="txt-railway">- JUAN HERNADEZ PHOTOGRAPHY -</p>
-					<br />
+					<p className="txt-railway">-John Joe PHOTOGRAPHY -</p>
+
 					<a href="https://www.facebook.com/bootsnipp">
 						<i id="social-fb" className="fab fa-facebook-square" />
 					</a>
@@ -27,31 +27,65 @@ export const Navbar = () => {
 						<i id="social-em" className="far fa-envelope" />
 					</a>
 				</div>
+				<div>
+					<input type="checkbox" id="sidebartoggler" defaultValue />
+					<div className="page-wrap">
+						<label htmlFor="sidebartoggler" className="toggle">
+							☰
+						</label>
+						<ul>
+							<li className="nav-item pl-1">
+								<a className="nav-link" href="/">
+									<i className="fa fa-home fa-fw mr-1" />
+									Home
+								</a>
+							</li>
 
+							<li className="nav-item pl-1">
+								<a className="nav-link" href="/gallery">
+									<i className="fa fa-info-circle fa-fw mr-1" />
+									Gallery
+								</a>
+							</li>
+							<li className="nav-item active pl-1">
+								<a className="nav-link" href="#">
+									<i className="fa fa-th-list fa-fw mr-1" />
+									Blog
+								</a>
+							</li>
+							<li className="nav-item pl-1">
+								<a className="nav-link" href="/demo">
+									<i className="far fa-smile-wink" />
+									About me
+								</a>
+							</li>
+							<li className="nav-item pl-1">
+								<a className="nav-link" href="/contact">
+									<i className="fa fa-sign-in fa-fw mr-1" />
+									Sign in
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 				{/* Social Footer, Single Coloured */}
 				{/* Include Font Awesome Stylesheet in Header */}
 				<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 				{/* // */}
 			</div>
 
-			<div>
-				<header>
-					{/*- Navbar -*/}
-					<nav className="navbar navbar-expand-lg">
+			{/* nav bar problem */}
+			{/* <div> */}
+			{/* <header> */}
+			{/*- Navbar -*/}
+			{/* <nav className="navbar navbar-expand-lg">
 						<div className="container">
 							<a className="navbar-brand text-white" href="#">
 								<i className="fas fa-camera-retro" />
-								Juan H. Photography
-							</a>
-							<button
-								className="navbar-toggler"
-								type="button"
-								data-toggle="collapse"
-								data-target="#nvbCollapse"
-								aria-controls="nvbCollapse">
-								<span className="navbar-toggler-icon" />
-							</button>
-							<div className="collapse navbar-collapse" id="nvbCollapse">
+								royznov Photography
+							</a> */}
+
+			{/* <div className="collapse navbar-collapse" id="nvbCollapse">
 								<ul className="navbar-nav ml-auto">
 									<li className="nav-item pl-1">
 										<a className="nav-link" href="/">
@@ -71,12 +105,6 @@ export const Navbar = () => {
 											Gallery
 										</a>
 									</li>
-									{/* <li className="nav-item pl-1">
-									<a className="nav-link" href="/contact">
-										<i className="fa fa-phone fa-fw fa-rotate-180 mr-1" />
-										Contact
-									</a>
-								</li> */}
 									<li className="nav-item pl-1">
 										<a className="nav-link" href="/demo">
 											<i className="fa fa-user-plus fa-fw mr-1" />
@@ -86,17 +114,17 @@ export const Navbar = () => {
 									<li className="nav-item pl-1">
 										<a className="nav-link" href="#">
 											<i className="fa fa-sign-in fa-fw mr-1" />
-											Other links
+											Sign in
 										</a>
 									</li>
 								</ul>
-							</div>
-						</div>
-					</nav>
-					{/*# Navbar #*/}
-				</header>
-				{/*- Footer -*/}
-			</div>
+							</div> */}
+			{/* </div>
+					</nav> */}
+			{/*# Navbar #*/}
+			{/* </header> */}
+			{/*- Footer -*/}
+			{/* </div> */}
 		</header>
 	);
 };

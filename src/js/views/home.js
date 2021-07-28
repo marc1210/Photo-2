@@ -34,7 +34,7 @@ export const Home = () => (
 					</figure>
 					<figure className="slide_img">
 						<img
-							src="https://m.22slides.com/jhernandez/20200917-dscf2468-1017.jpg?auto=format&w=1000&s=385b92109fa43d424e096a8c4f960587"
+							src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/138628800_10106241532815188_8283432960768852715_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=0debeb&_nc_ohc=cicdR8f94N0AX-Q8oLB&_nc_ht=scontent-mia3-2.xx&oh=951f32ed29b6a34b536d5f47395b602a&oe=612800AF"
 							alt="Taking pics"
 							width={1255}
 							height={800}
@@ -44,19 +44,19 @@ export const Home = () => (
 				</div>
 			</div>
 		</div>
-		{/* <figure className="snip1336">
+		<figure className="snip1336">
 			<img
 				src="https://m.22slides.com/jhernandez/sonyrx100vi9-6878.jpg?auto=format&w=800&s=d25b5d75b9ed6af660da40a435c50299"
 				alt="sample87"
 			/>
 			<figcaption>
 				<img
-					src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/102414262_10158526496309468_7766513217142245399_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=174925&_nc_ohc=y2VS0Jf7w-IAX-8ZeHp&_nc_oc=AQmjrePG_p_vnocaeg-dAp8ATtv5wYrK143N5xeBoPggoFY4HLJw9gas0PH6GVAhv8agychG15OKRsK46OO0425S&_nc_ht=scontent-mia3-2.xx&oh=7d7899980fc72f934314b7cd90bfb9ba&oe=60E6BCEB"
+					src="https://scontent-mia3-2.xx.fbcdn.net/v/t31.18172-8/10258397_10202747575905233_1190359196392498148_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=174925&_nc_ohc=nQy2wYu2HnUAX-GFCSH&_nc_ht=scontent-mia3-2.xx&oh=45bc48a3a782f87a7731a508f755eb6c&oe=6125AE74"
 					alt="profile-sample4"
 					className="profile"
 				/>
 				<h2>
-					Juan Hernandez
+					John Joe
 					<span>Photagrapther</span>
 				</h2>
 				<p>
@@ -67,16 +67,16 @@ export const Home = () => (
 				<a href="/demo" className="follow">
 					More Bio
 				</a>
-				<a href="https://www.facebook.com/Juanpointeight" className="info">
+				<a href="https://www.instagram.com/royznov/" className="info">
 					Fallow
 				</a>
 			</figcaption>
-		</figure> */}
+		</figure>
 		{/* this is a porlaroid picture */}
 		<div className="wrapper">
 			<div className="item">
 				<div className="fuji">
-					<img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/186558376_10159485933904468_5380508424883847612_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Z1R5L__o-DwAX_6nl8L&tn=a01Uh_sVzYDwwsDJ&_nc_ht=scontent-mia3-2.xx&oh=2a66310908651e16a8488c868b01a8f0&oe=60E704AA" />
+					<img src="https://www.rangefinderonline.com/wp-content/uploads/2020/12/51_classic_romantic_london_uk_wedding.jpg" />
 					<a href="/gallery" className="follow">
 						Weddings
 					</a>
@@ -84,7 +84,7 @@ export const Home = () => (
 			</div>
 			<div className="item">
 				<div className="fuji">
-					<img src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/186558538_10159485933429468_9132221383894745231_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=c1NASbva4jwAX_j5cSy&tn=a01Uh_sVzYDwwsDJ&_nc_ht=scontent-mia3-1.xx&oh=1fb15a62dd7645e5e3c2ddabc7328e3a&oe=60E52DFF" />
+					<img src="https://www.gannett-cdn.com/presto/2020/12/27/PAPN/97e1e944-e3fc-4d6e-a60b-a7f3060e03eb-APC_Kaukauna_Grads_7348_072920_wag.jpg?width=660&height=462&fit=crop&format=pjpg&auto=webp" />
 					<a href="/gallery" className="follow">
 						Grads
 					</a>
@@ -92,15 +92,15 @@ export const Home = () => (
 			</div>
 			<div className="item">
 				<div className="fuji">
-					<img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/153948142_10159272657319468_6901761733791230778_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=k02dND7u62IAX9xYWtE&_nc_oc=AQlbCZ_7TDpMF2Tnqkgp969ShvPXXrCY3Z_UL7oMMcqd40LbEibXwIr-oGYsLSLIMBzuZm9OKz71LZxzEchLXYPe&tn=a01Uh_sVzYDwwsDJ&_nc_ht=scontent-mia3-2.xx&oh=3e9972e57412450aa31c91fedf5129ea&oe=60E69D9E" />
+					<img src="https://images.unsplash.com/photo-1565227829247-fed4f80f6814?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNhciUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" />
 					<a href="/gallery" className="follow">
-						Business
+						Modling Photo
 					</a>
 				</div>
 			</div>
 			<div className="item">
 				<div className="fuji">
-					<img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/106018496_10158601316149468_4844774075256126301_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=ETsREejEDNgAX9Spj4l&_nc_ht=scontent-mia3-2.xx&oh=d84654d6053c8b417314032c9132dbea&oe=60E8374C" />
+					<img src="https://joeandrobin.com/wp-content/uploads/2016/04/Rocky-Mountain-National-Park-Engagement-Session-I-Said-Yes-on-Hand.jpg" />
 					<a href="/gallery" className="follow">
 						Engagement Photo
 					</a>
@@ -108,7 +108,7 @@ export const Home = () => (
 			</div>
 			<div className="item">
 				<div className="fuji">
-					<img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/131432266_10221120473496190_7739920163149701449_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=MJSA26ANt6kAX-nG3bp&_nc_ht=scontent-mia3-2.xx&oh=ff14a86f5469a462b75ac04802c47992&oe=60E7FBAB" />
+					<img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/138529245_10106241533433948_6179580000927032109_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=mlINRrmT8r4AX-O-ATy&tn=a01Uh_sVzYDwwsDJ&_nc_ht=scontent-mia3-2.xx&oh=ed4804d90371d2dab6eed7806d024b26&oe=60FDC4D7" />
 					<a href="/gallery" className="follow">
 						New Born
 					</a>

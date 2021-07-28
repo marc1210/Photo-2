@@ -1,44 +1,123 @@
-
 header[role="banner"] {
-    #logo-main {
-      display: block;
-      margin: 20px auto;
-    }
+  #logo-main {
+    display: block;
+    margin: 20px auto;
   }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(16, 114, 16);
+  width: 150px;
+  position: fixed;
+  left: -180px;
+  top: 0;
+  transition: 0.4s;
+
+  li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+  }
+}
+
+.toggle{
+  position: fixed;
+  left: 20px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#sidebartoggler{
+  display: none;
   
-  #navbar-primary.navbar-default  {
-    
-    border: none;
-    .navbar-nav { 
-      width: 100%;
-      text-align: center;
-      > li {
-        // display: inline-block;
-        float: none;
-        > a {
-          padding-left: 30px;
-          padding-right: 30px;
-          }
-      }
+  &:checked + .page-wrap{
+    ul{
+      left: 0;
+    }
+    .toggle{
+      left: 190px;
     }
   }
-
-
-  .social:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
-.social {
-    -webkit-transform: scale(0.8);
-    /* Browser Variations: */
+
+
+
+
+
+
+
+
+.nav {
+  .open>a {
+    background-color: transparent;
+    &:hover {
+      background-color: transparent;
+    }
+    &:focus {
+      background-color: transparent;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #navbar-primary.navbar-default {
+//   background: transparent;
+//   border: none;
+//   .navbar-nav { 
+//     width: 100%;
+//     text-align: center;
+//     > li {
+//       display: inline-block;
+//       float: none;
+//       > a {
+//         padding-left: 30px;
+//         padding-right: 30px;
+//         }
+//     }
+//   }
+// }
+
+
+//   .social:hover {
+//     -webkit-transform: scale(1.1);
+//     -moz-transform: scale(1.1);
+//     -o-transform: scale(1.1);
+// }
+// .social {
+//     -webkit-transform: scale(0.8);
+//     /* Browser Variations: */
     
-    -moz-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-}
+//     -moz-transform: scale(0.8);
+//     -o-transform: scale(0.8);
+//     -webkit-transition-duration: 0.5s;
+//     -moz-transition-duration: 0.5s;
+//     -o-transition-duration: 0.5s;
+// }
 
 /*
    Multicoloured Hover Variations

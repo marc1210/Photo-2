@@ -6,7 +6,7 @@ import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import { Gallery } from "./views/gallery";
-// import { Contact } from "./views/contact";
+// import { Contacts } from "./views/contacts";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -34,7 +34,7 @@ const Layout = () => {
 							<Single />
 						</Route>
 						{/* <Route exact path="/contact">
-							<Contact />
+							<Contacts />
 						</Route> */}
 						<Route exact path="/gallery">
 							<Gallery />
